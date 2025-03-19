@@ -11,3 +11,4 @@ def cadastrar_pessoa(cadastros):
     turma = input("turma:")
     curso = input("curso:")
     cadastros.append({"nome": nome, "idade": idade, "turma": turma, "curso": curso})
+    print("cadastro realizado com sucesso!")
